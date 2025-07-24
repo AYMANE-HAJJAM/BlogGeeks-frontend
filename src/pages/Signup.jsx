@@ -26,7 +26,7 @@ const Signup = () => {
         password: formData.password,
       };
       setLoading(true);
-      const res = await axios.post("http://localhost:4000/user/register", data);
+      const res = await axios.post("https://bloggeeks-backend-production.up.railway.app/user/register", data);
 
       if (res.data.success) {
         toast.success(res.data.message);

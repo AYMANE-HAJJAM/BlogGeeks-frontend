@@ -15,7 +15,7 @@ const BlogCard = ({
       className="block border border-gray-300 shadow-md p-4 rounded-md hover:shadow-lg hover:bg-gray-50 transition-all duration-300"
     >
       <img
-        src={`http://localhost:4000/images/${image}`}
+        src={`https://bloggeeks-backend-production.up.railway.app/images/${image}`}
         alt={title}
         className="w-full h-52 object-cover rounded-md mb-3"
       />

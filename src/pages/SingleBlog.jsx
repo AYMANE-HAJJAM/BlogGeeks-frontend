@@ -21,7 +21,7 @@ const SingleBlog = () => {
     <div className="rounded-md border-1 border-gray-200 p-5 max-w-3xl flex flex-col gap-3 items-center justify-center mx-auto py-8">
       <img
         className="transition-transform duration-300 "
-        src={`http://localhost:4000/images/${blog.image}`}
+        src={`https://bloggeeks-backend-production.up.railway.app/images/${blog.image}`}
         alt=""
       />
       <p className="text-2xl font-bold">{blog.title}</p>
